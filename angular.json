@@ -27,9 +27,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/bootstrap.css",
+              "src/assets/css/bootstrap-responsive.css",
+              "src/assets/font-awesome/css/font-awesome.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.easing-1.3.min.js",
+              "src/assets/js/jquery.scrollTo-1.4.3.1-min.js",
+              "src/assets/js/shop.js"
+
+            ]
           },
           "configurations": {
             "production": {

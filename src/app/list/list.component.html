@@ -1,0 +1,35 @@
+<div class="loder" *ngIf="loading">
+	<div class="container loader">
+		<span>L</span>
+		<span>O</span>
+		<span>A</span>
+		<span>D</span>
+		<span>I</span>
+		<span>N</span>
+		<span>G</span>
+	  </div>
+</div>
+
+
+<h3>Three Column Product view </h3>
+		<ul class="thumbnails">
+			<li class="span3" *ngFor="let feat of list">
+			  <div class="thumbnail">
+				<a href="product_details.html" class="overlay"></a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="product_details.html"><img [src]="feat.image" alt=""></a>
+				<div class="caption cntr">
+					<p>{{feat.heading}}</p>
+					<p><strong> {{feat.price}}</strong></p>
+					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<div class="actionList">
+						<a class="pull-left" href="#">Add to Wish List </a> 
+						<a class="pull-left" href="#"> Add to Compare </a>
+					</div> 
+					<br class="clr">
+				</div>
+			  </div>
+			</li>
+		
+		  </ul>
+
